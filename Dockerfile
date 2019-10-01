@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
       python-sparqlwrapper       \
       python-svn                 \
       python-whoosh              \
+      python-pandas              \
       w3c-dtd-xhtml		 \
       subversion                 \
       libfontconfig1              && \
