@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
 
 ADD requirements.txt /requirements.txt
 
-RUN pip install -r /requirements.txt
+RUN pip install --upgrade pip -r /requirements.txt
 
 ADD entrypoint.sh /
 ADD kolekti.ini /etc/kolekti.ini
