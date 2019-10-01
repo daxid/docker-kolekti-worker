@@ -14,4 +14,3 @@ service_identity
 openpyxl
 xlrd
 awesome-slugify
-pandas
