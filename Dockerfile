@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y \
 
 ADD requirements.txt /requirements.txt
 
+RUN pip install --upgrade pip
 RUN pip install -r /requirements.txt
 
 ADD entrypoint.sh /
